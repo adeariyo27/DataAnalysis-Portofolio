@@ -1,17 +1,17 @@
--- ANALISIS PENJUALAN DI SUATU STORE
--- 1. Total jumlah seluruh penjualan (total/revenue)
+-- SALES ANALYSIS IN A STORE
+-- 1. Total amount of all sales (total/revenue)
 SELECT
     SUM(total) AS total
 FROM
     tr_penjualan;
 
--- 2. Total quantity seluruh produk yang terjual
+-- 2. Total quantity of all sold products
 SELECT
     SUM(qty) AS qty
 FROM
     tr_penjualan;
 
--- 3. Total quantity dan total revenue untuk setiap kode produk
+-- 3. Total quantity and total revenue for each product code
 SELECT
     kode_produk,
     SUM(qty) AS qty,
@@ -21,7 +21,7 @@ FROM
 GROUP BY
     kode_produk;
 
--- 4. Rata - Rata total belanja per kode pelanggan
+-- 4. Average total spending per customer code
 SELECT
     kode_pelanggan,
     AVG(total) AS avg_total
@@ -30,8 +30,7 @@ FROM
 GROUP BY
     kode_pelanggan;
 
-/* 5. Menambahkan kolom baru dengan nama ‘kategori’ yang mengkategorikan total/revenue ke dalam 
- 3 kategori: High: > 300K; Medium: 100K - 300K; Low: <100K. */
+/* 5. Added a new column with the name 'category' which categorizes total/revenue into 3 categories: High: > 300K; Medium: 100K - 300K; Low: <100K. */
 SELECT
     kode_transaksi,
     kode_pelanggan,
