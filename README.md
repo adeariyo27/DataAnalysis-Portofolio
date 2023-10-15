@@ -1,2 +1,2 @@
 # DataAnalyst-Portofolio
-Hi Everyone! My name is Ade Ariyo Yudanto, a system and network engineer at Palu Administrative Court (part of Mahkamah Agung RI) who preparing to switch careers as a data analyst or data scientist. This is a repository of mini projects that I completed on DQLab, an online learning platform that focuses on introducing Data Science & Artificial Intelligence (AI)
+Hi Everyone! My name is Ade Ariyo Yudanto, a system and network engineer at Palu Administrative Court (part of Mahkamah Agung RI) who preparing to switch careers as a data analyst or data scientist. This is a repository of Porjoects and Mini Projects that I completed on DQLab, an online learning platform that focuses on introducing Data Science & Artificial Intelligence (AI)
