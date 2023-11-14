@@ -34,7 +34,8 @@ for baris_harga_rumah in data_harga_rumah[1:]:
     for i in range(len(baris_harga_rumah)):
         dict_harga_rumah[key_harga_rumah[i]] = baris_harga_rumah[i]
     harga_rumah.append(dict_harga_rumah)
-print(harga_rumah)
+
+harga_rumah
 
 """## STEP 2: Create function *get_all_specified_attribute*
 
