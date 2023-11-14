@@ -20,7 +20,7 @@ The information provided below includes company information as well as personnel
 
 *   Print the total cost that the company incurred to evaluate the functionality of the concept and the polymorphism technique used.
 
-### **STEP 1: Define Karyawan class as parent class**
+## **STEP 1: Define Karyawan class as parent class**
 """
 
 class Karyawan:
